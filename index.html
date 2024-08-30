@@ -307,21 +307,6 @@
             seeMore.onclick = showMore;
     </script>
 
-<script>
-    // Function to open WhatsApp chat
-    function openWhatsApp() {
-        const phoneNumber = '+91 62008 56512'; // Replace with the desired phone number in international format
-        const message = 'Hello! I would like to chat with you.'; // Replace with your desired message
-        const encodedMessage = encodeURIComponent(message); // Encode message for URL
-        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`; // WhatsApp URL
-
-        window.open(whatsappURL, '_blank'); // Open WhatsApp in a new tab
-    }
-
-    // Event listener for the button
-    const whatsappButton = document.getElementById('whatsappButton');
-    whatsappButton.addEventListener('click', openWhatsApp);
-</script>
 
     <script>
         var sidemenu = document.getElementById("sidemenu");
