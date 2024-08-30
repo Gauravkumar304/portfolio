@@ -17,7 +17,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url("/Screenshot\ 2024-08-11\ 121052.png");     
+    background-image: url("/Assets/Home\ pic.png");     
     background-size: cover;
     background-position: center;
 
@@ -258,10 +258,14 @@ nav ul li a:hover::after{
 
 .work img{
     width: 100%;
-    height: 35vh;
+    height: 30vh;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+}
+
+#hidden-work-list{
+    display: none;
 }
 
 .layer{
@@ -321,6 +325,7 @@ nav ul li a:hover::after{
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
+    background: #ff004f;
     transition: background 0.5s;
 }
 .btn:hover{
@@ -417,7 +422,7 @@ nav .fas{
 
     #header{
         /* background: #262626; */
-        background-image: url(/image.png);
+        background-image: url(/Assets/image\ for\ sm\ screen.png);
         /* height: 100%; */
         
     }
